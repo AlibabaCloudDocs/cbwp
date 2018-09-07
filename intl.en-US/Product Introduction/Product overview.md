@@ -12,8 +12,4 @@
 
     You can add an EIP in the same region to an Internet Shared Bandwidth instance. Then the EIP becomes a pure public IP and uses the bandwidth of the Internet Shared Bandwidth. It is easier to manage and monitor public network traffic.
 
--   Billing on an hourly basis
-
-    -   On-demand usage. If you use an Internet Shared Bandwidth instance only one hour, you only need to pay bandwidth fee generated in the past one hour.
-    -   Flexible configuration change. You can increase the bandwidth when large traffic comes in to provide stable service.
 
