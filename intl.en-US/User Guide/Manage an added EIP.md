@@ -11,7 +11,7 @@ To bind an EIP added to an Internet Shared Bandwidth to a cloud product instance
 3.  Find the target instance and then click **Manage**.
 4.  On the Shared Bandwidth IPs page, click **Bind**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19058/153628721411096_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19058/153654518011096_en-US.png)
 
 5.  Select the instance to bind and click **OK**.
 
