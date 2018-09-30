@@ -1,15 +1,15 @@
 # Product overview {#concept_mks_snx_b2b .concept}
 
- Internet Shared Bandwidth helps you manage your Internet bandwidth in a unified way. After creating an Internet Shared Bandwidth, you can add EIPs in the same region of the Internet Shared Bandwidth to it. With Internet Shared Bandwidth, you can manage the Internet traffic for the cloud resources bound to these EIPs and use peak bandwidth in Gbps.
+ Internet Shared Bandwidth helps you manage your Internet bandwidth in a more methodical and structured manner. After creating an Internet Shared Bandwidth in a particular region, you can add Elastic IPs \(EIP\) from the same region. With Internet Shared Bandwidth, you can manage the Internet traffic for your cloud resources bound to these EIPs and use peak bandwidth as necessary.
 
 ## Benefits {#section_cyt_vnx_b2b .section}
 
--   Large BGP bandwidth with high quality
+-   Border Gateway Protocol \(BGP\) with high bandwidth and high quality
 
-    -   Up to 89 high-quality BGP lines covering the world, enjoying the same BGP multiple path bandwidth as Taobao and Tmall.
+    -   Up to 89 high-quality BGP lines around the globe, with the same BGP multiple path, high quality bandwidth as Taobao and Tmall.
     -   An Internet Shared Bandwidth instance of 100 Gbps bandwidth is available.
 -   Uniformly manage the Internet egress
 
-    You can add an EIP in the same region to an Internet Shared Bandwidth instance. Then the EIP becomes a pure public IP and uses the bandwidth of the Internet Shared Bandwidth. It is easier to manage and monitor public network traffic.
+    You can add an EIP to an Internet Shared Bandwidth instance from the same region. The EIP then becomes a pure public IP and uses the bandwidth of the Internet Shared Bandwidth. Adding an EIP to an ISB instance makes it much easier to manage and monitor public network traffic.
 
 
