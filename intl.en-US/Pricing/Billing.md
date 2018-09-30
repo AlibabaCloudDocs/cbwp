@@ -1,16 +1,16 @@
 # Billing {#concept_yz1_gnm_z2b .concept}
 
-Internet Shared Bandwidth supports Pay-As-You-Go billing and is billed on traffic.
+Internet Shared Bandwidth supports Pay-As-You-Go billing and is billed based on traffic.
 
 ## Pricing {#section_htg_slc_bfb .section}
 
-The price in the table below is a reference. Take the price on the console as the standard.
+The pricing in the table below is for a reference only. Use the price on the console.
 
-|Region|Unit price \(USD/GB\)|
-|:-----|:--------------------|
+|Regions|Unit price \(USD/GB\)|
+|:------|:--------------------|
 |China \(Hangzhou\), China \(Shanghai\), China \(Shenzhen\), China \(Beijing\), China \(Zhangjiakou\)|0.123|
 |China \(Qingdao\) |0.11|
-|China \(Hong Kong\)|0.153|
+|Hong Kong|0.153|
 |US \(Silicon Valley\)|0.077|
 |US \(Virginia\)|0.76|
 |Malaysia \(Kuala Lumpur\)|0.077|
@@ -25,8 +25,8 @@ The price in the table below is a reference. Take the price on the console as th
 
 After an Internet Shared Bandwidth instance is overdue:
 
--   When the balance of the account \(including cash, vouchers, coupons or pre-authorization and more\) cannot settle the bill, the system determines that the account is overdue.
--   If the account has been overdue for 24 hours, the Internet Shared Bandwidth will be stopped and reserved for another 15 days.
--   If you recharge your overdue bill within the 15 days, the instance will be automatically restarted.
--   If you do not recharge your overdue bill within the 15 days, the instance will be released. The EIPs in the Internet Shared Bandwidth instance will be automatically removed from the instance and restore their original peak bandwidths and billing method.
+-   If the account balance \(including cash, vouchers, coupons, and pre-authorization\) is insufficient to cover the outstanding payment, the system considers the account to be overdue.
+-   When the account has been overdue for 24 hours, the Internet Shared Bandwidth will be stopped and reserved for 15 calendar days.
+-   If you rectify your overdue bill within the 15 day reserved period, your instance will be automatically restarted.
+-   If you do not update your account and rectify your overdue bill within the 15 days, the instance will be released. The EIPs in the Internet Shared Bandwidth instance will be automatically removed from the instance and restored to their original peak bandwidth and billing method.
 
