@@ -4,10 +4,13 @@
 
 |API|描述|
 |:--|:-|
-|[CreateCommonBandwidthPackage](../../../../intl.zh-CN/API参考/共享带宽/CreateCommonBandwidthPackage.md#)|创建共享带宽实例。|
-|[AddCommonBandwidthPackageIp](../../../../intl.zh-CN/API参考/共享带宽/AddCommonBandwidthPackageIp.md#)|为共享带宽实例添加EIP。|
-|[RemoveCommonBandwidthPackageIp](../../../../intl.zh-CN/API参考/共享带宽/RemoveCommonBandwidthPackageIp.md#)|将EIP移除出共享带宽实例。|
-|[DescribeCommonBandwidthPackages](../../../../intl.zh-CN/API参考/共享带宽/DescribeCommonBandwidthPackages.md#)|查询已创建的共享实例。|
-|[DeleteCommonBandwidthPackage](../../../../intl.zh-CN/API参考/共享带宽/DeleteCommonBandwidthPackage.md#)|删除共享带宽实例。|
-|[DescribeEipMonitorData](../../../../intl.zh-CN/API参考/弹性公网IP/DescribeEipMonitorData.md#)|查看EIP的监控信息|
+|[CreateCommonBandwidthPackage](../../../../cn.zh-CN/API参考/共享带宽/CreateCommonBandwidthPackage.md#)|创建共享带宽实例。|
+|[ModifyCommonBandwidthPackageAttribute](../../../../cn.zh-CN/API参考/共享带宽/ModifyCommonBandwidthPackageAttribute.md#)|修改实例的名称和描述。|
+|[AddCommonBandwidthPackageIp](../../../../cn.zh-CN/API参考/共享带宽/AddCommonBandwidthPackageIp.md#)|为共享带宽实例添加EIP。|
+|[ModifyCommonBandwidthPackageIpBandwidth](../../../../cn.zh-CN/API参考/共享带宽/ModifyCommonBandwidthPackageIpBandwidth.md#)|为已经加入到共享带宽中的EIP设置最大可用的带宽值。|
+|[CancelCommonBandwidthPackageIpBandwidth](../../../../cn.zh-CN/API参考/共享带宽/CancelCommonBandwidthPackageIpBandwidth.md#)|取消已经加入到共享带宽中的EIP的最大可用带宽值的设置。|
+|[DescribeCommonBandwidthPackages](../../../../cn.zh-CN/API参考/共享带宽/DescribeCommonBandwidthPackages.md#)|查询已创建的共享带宽实例。|
+|[DescribeEipMonitorData](../../../../cn.zh-CN/API参考/弹性公网IP/DescribeEipMonitorData.md#)|查看EIP的监控信息。|
+|[RemoveCommonBandwidthPackageIp](../../../../cn.zh-CN/API参考/共享带宽/RemoveCommonBandwidthPackageIp.md#)|将EIP移除共享带宽实例。|
+|[DeleteCommonBandwidthPackage](../../../../cn.zh-CN/API参考/共享带宽/DeleteCommonBandwidthPackage.md#)|删除共享带宽实例。|
 
