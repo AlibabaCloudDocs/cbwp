@@ -10,7 +10,7 @@
 |[ModifyCommonBandwidthPackageIpBandwidth](../../../../cn.zh-CN/API参考/共享带宽/ModifyCommonBandwidthPackageIpBandwidth.md#)|为已经加入到共享带宽中的EIP设置最大可用的带宽值。|
 |[CancelCommonBandwidthPackageIpBandwidth](../../../../cn.zh-CN/API参考/共享带宽/CancelCommonBandwidthPackageIpBandwidth.md#)|取消已经加入到共享带宽中的EIP的最大可用带宽值的设置。|
 |[DescribeCommonBandwidthPackages](../../../../cn.zh-CN/API参考/共享带宽/DescribeCommonBandwidthPackages.md#)|查询已创建的共享带宽实例。|
-|[DescribeEipMonitorData](../../../../cn.zh-CN/API参考/弹性公网IP/DescribeEipMonitorData.md#)|查看EIP的监控信息。|
+|[ModifyCommonBandwidthPackageSpec](../../../../cn.zh-CN/API参考/共享带宽/ModifyCommonBandwidthPackageSpec.md#)|修改共享带宽的带宽峰值。|
 |[RemoveCommonBandwidthPackageIp](../../../../cn.zh-CN/API参考/共享带宽/RemoveCommonBandwidthPackageIp.md#)|将EIP移除共享带宽实例。|
 |[DeleteCommonBandwidthPackage](../../../../cn.zh-CN/API参考/共享带宽/DeleteCommonBandwidthPackage.md#)|删除共享带宽实例。|
 
