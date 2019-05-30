@@ -26,6 +26,6 @@
 
     -   如果您有可用的EIP，单击**从已有EIP列表选取**，然后从**可用EIP列表**中，选择要添加的EIP。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19039/155504113411049_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19039/155921563011049_zh-CN.png)
 
 
