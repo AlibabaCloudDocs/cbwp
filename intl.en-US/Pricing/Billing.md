@@ -10,7 +10,7 @@ The pricing in the table below is for a reference only. Use the price on the con
 |:------|:--------------------|
 |China \(Hangzhou\), China \(Shanghai\), China \(Shenzhen\), China \(Beijing\), China \(Zhangjiakou\)|0.123|
 |China \(Qingdao\) |0.11|
-|Hong Kong|0.153|
+|China \(Hong Kong\)|0.153|
 |US \(Silicon Valley\)|0.077|
 |US \(Virginia\)|0.76|
 |Malaysia \(Kuala Lumpur\)|0.077|
@@ -21,12 +21,12 @@ The pricing in the table below is for a reference only. Use the price on the con
 |Australia \(Sydney\)|0.13|
 |Indonesia \(Jakarta\), India \(Mumbai\)|0.09|
 
-## Overdue instructions {#section_nfr_4nm_z2b .section}
+## Overdue payments {#section_nfr_4nm_z2b .section}
 
 After an Internet Shared Bandwidth instance is overdue:
 
 -   If the account balance \(including cash, vouchers, coupons, and pre-authorization\) is insufficient to cover the outstanding payment, the system considers the account to be overdue.
 -   When the account has been overdue for 24 hours, the Internet Shared Bandwidth will be stopped and reserved for 15 calendar days.
--   If you rectify your overdue bill within the 15 day reserved period, your instance will be automatically restarted.
--   If you do not update your account and rectify your overdue bill within the 15 days, the instance will be released. The EIPs in the Internet Shared Bandwidth instance will be automatically removed from the instance and restored to their original peak bandwidth and billing method.
+-   If you pay your overdue bill within the 15 day reserved period, your instance will be automatically restarted.
+-   If you do not renew your account and pay your overdue bill within the 15 days, the instance will be released. The EIPs in the Internet Shared Bandwidth instance will be automatically removed from the instance and restored to their original peak bandwidth and billing method.
 
