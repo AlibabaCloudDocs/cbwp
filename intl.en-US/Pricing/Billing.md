@@ -9,7 +9,7 @@ The pricing in the table below is for a reference only. Use the price on the con
 |Regions|Unit price \(USD/GB\)|
 |:------|:--------------------|
 |China \(Hangzhou\), China \(Shanghai\), China \(Shenzhen\), China \(Beijing\), China \(Zhangjiakou\)|0.123|
-|China \(Qingdao\) |0.11|
+|China \(Qingdao\)|0.11|
 |China \(Hong Kong\)|0.153|
 |US \(Silicon Valley\)|0.077|
 |US \(Virginia\)|0.76|
