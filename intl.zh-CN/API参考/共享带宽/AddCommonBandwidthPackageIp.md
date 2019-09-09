@@ -4,7 +4,7 @@
 
 调用本接口添加EIP时，请注意：
 
--   只支持添加后付费的EIP。
+-   只支持添加按量付费的EIP。
 -   EIP和共享带宽的地域必须相同。
 
 ## 调试 {#api_explorer .section}
@@ -79,5 +79,5 @@ https://vpc.aliyuncs.com/?Action=AddCommonBandwidthPackageIp
 |404|InvalidRegionId.NotFound|The specified RegionId does not exist in our records.|指定的 RegionId 不存在，请您检查此产品在该地域是否可用。|
 |404|InvalidBandwidthPackageId.NotFound|The specified bandwidthPackageId does not exist in our records.|该共享带宽包不存在，请您检查输入参数是否正确。|
 
-访问[错误中心](https://error-center.aliyun.com/status/product/Vpc)查看更多错误码。
+访问[错误中心](https://error-center.alibabacloud.com/status/product/Vpc)查看更多错误码。
 
