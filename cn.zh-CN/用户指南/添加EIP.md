@@ -17,11 +17,11 @@
 5.  在添加IP页面，根据以下信息添加EIP，然后单击**确定**。 
     -   如果您在该地域下没有可用的EIP，单击**购买EIP并添加到带宽包**，然后输入购买EIP的个数。
 
-        系统会自动创建指定个数的按流量计费的按量付费EIP并添加到共享带宽实例中。
+        系统会自动创建指定个数的按流量计费的按量计费EIP并添加到共享带宽实例中。
 
     -   如果您在该地域下有可用的EIP，单击**从已有EIP列表选取**，然后在**可用EIP列表**中选择要添加的EIP。
 
-        ![添加EIP](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19039/156802649111049_zh-CN.png)
+        ![添加EIP](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/19039/156878883511049_zh-CN.png)
 
 
 **相关文档**  
