@@ -8,36 +8,36 @@
 
 ## 请求参数
 
-|名称|位置|类型|是否必选|示例值|描述|
-|--|--|--|----|---|--|
-|Action|Query|String|是|CreateCommonBandwidthPackage|要执行的操作，取值：**CreateCommonBandwidthPackage**。 |
-|Bandwidth|Query|Integer|是|5|共享带宽的带宽峰值，取值：
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|CreateCommonBandwidthPackage|要执行的操作，取值：**CreateCommonBandwidthPackage**。 |
+|Bandwidth|Integer|是|5|共享带宽的带宽峰值，取值：
 
- 1~1000。
+ **1**~**1000**。
 
  单位为Mbps。 |
-|RegionId|Query|String|是|cn-hangzhou|共享带宽所在的地域。您可以通过调用[DescribeRegions](~~36063~~)接口获取地域ID。 |
-|Zone|Query|String|否|cn-hangzhou-a|共享带宽的可用区。
+|RegionId|String|是|cn-hangzhou|共享带宽所在的地域ID。您可以通过调用[DescribeRegions](~~36063~~)接口获取地域ID。 |
+|Zone|String|否|cn-hangzhou-a|共享带宽的可用区。
 
  不需要传入该参数。 |
-|ISP|Query|String|否|BGP|线路类型，取值：
+|ISP|String|否|BGP|线路类型，取值：
 
  -   **BGP**：BGP（多线）线路。
 -   **BGP\_PRO**：BGP（多线）精品线路。
 
  **说明：** 目前，全部地域都支持BGP（多线）线路共享带宽，仅中国（香港）地域支持BGP（多线）精品线路共享带宽。 |
-|Name|Query|String|否|test123|共享带宽的名称。
+|Name|String|否|test123|共享带宽的名称。
 
- 长度为2~128个字符，必须以字母或中文开头，可包含数字、点号（.）、下划线（\_）和短横线（-），但不能以`http://`或`https://`开头。 |
-|Description|Query|String|否|abc|共享带宽的描述信息。
+ 长度为2~128个字符，必须以字母或中文开头，可包含数字、半角句点（.）、下划线（\_）和短划线（-），但不能以`http://`或`https://`开头。 |
+|Description|String|否|abc|共享带宽的描述信息。
 
  长度为2~256个字符，必须以字母或中文开头，但不能以`http://`或`https://`开头。 |
-|ClientToken|Query|String|否|02fb3da4-130e-11e9-8e44-001\*\*\*\*|用于保证请求的幂等性。由客户端生成该参数值，要保证在不同请求间唯一，最大值不超过64个ASCII字符。 |
-|ResourceGroupId|Query|String|否|rg-acfmxazdjdhd\*\*\*\*|资源组ID。 |
-|Ratio|Query|Integer|否|20|共享带宽的保底百分比，取值为**20**，即保底百分比的范围是20%。
+|ClientToken|String|否|02fb3da4-130e-11e9-8e44-001\*\*\*\*|用于保证请求的幂等性。由客户端生成该参数值，要保证在不同请求间唯一，最大值不超过64个ASCII字符。 |
+|ResourceGroupId|String|否|rg-acfmxazdjdhd\*\*\*\*|资源组ID。 |
+|Ratio|Integer|否|20|共享带宽的保底百分比，取值为**20**，即保底百分比的范围是20%。
 
  **说明：** 仅中国站支持此参数。 |
-|InternetChargeType|Query|String|否|中国站示例值：PayByBandwidth，国际站示例值：PayByTraffic|
+|InternetChargeType|String|否|中国站示例值：PayByBandwidth，国际站示例值：PayByTraffic|
  共享带宽的计费方式，取值：**PayByTraffic**。 |
 
 ## 返回数据
@@ -61,7 +61,7 @@ http(s)://[Endpoint]/?Action=CreateCommonBandwidthPackage
 
 正常返回示例
 
-`XML` 格式
+`XML`格式
 
 ```
 <CreateCommonBandwidthPackageResponse>
@@ -71,16 +71,14 @@ http(s)://[Endpoint]/?Action=CreateCommonBandwidthPackage
 </CreateCommonBandwidthPackageResponse>
 ```
 
-`JSON` 格式
+`JSON`格式
 
 ```
 {
-    "CreateCommonBandwidthPackageResponse": {
-        "BandwidthPackageId": "cbwp-bp1vevu8h3iehdfradfra****",
-        "ResourceGroupId": "rg-acfmxazdjdhd****",
-        "RequestId": "FF39F653-033E-4CD9-9EDF-3CCA5A71FBC3"
+    "ResourceGroupId":"rg-acfmxazdjdhd****",
+    "RequestId":"FF39F653-033E-4CD9-9EDF-3CCA5A71FBC3",
+    "BandwidthPackageId":"cbwp-bp1vevu8h3ieh****"
     }
-}
 ```
 
 ## 错误码
@@ -93,6 +91,7 @@ http(s)://[Endpoint]/?Action=CreateCommonBandwidthPackage
 |404|InvalidZoneId.NotFound|Specified value of ZoneId is not exists.|该可用区不存在。|
 |400|InvalidParameter.Name.Malformed|The specified Name is not valid.|该名称不合法，请您按照正确的格式书写名称。|
 |400|InvalidParameter.Description.Malformed|The specified Description is not valid.|该描述不合法。|
+|400|InvalidResourceGroupId|The specified ResourceGroupId does not exist.|资源组ID不存在。|
 
 访问[错误中心](https://error-center.alibabacloud.com/status/product/Vpc)查看更多错误码。
 
