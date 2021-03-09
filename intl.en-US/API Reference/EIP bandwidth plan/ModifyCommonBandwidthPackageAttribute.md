@@ -18,7 +18,7 @@ You can call this operation to modify the name and description of an EIP bandwid
 
 You can call the [DescribeRegions](~~36063~~) operation to query region IDs. |
 |Description|String|No|Description|The description of the EIP bandwidth plan. The description must be 2 to 256 characters in length. It must start with a letter but cannot start with `http://` or `https://`. |
-|Name|String|No|test123|The name of the EIP bandwidth plan. The name must be 2 to 128 characters in length and can contain letters, digits, periods \(.\), underscores \(\_\), and hyphens \(-\). It must start with a letter but cannot start with`http://` or `https://`. |
+|Name|String|No|test123|The name of the EIP bandwidth plan. The name must be 2 to 128 characters in length and can contain letters, digits, periods \(.\), underscores \(\_\), and hyphens \(-\). It must start with a letter but cannot start with `http://` or `https://`. |
 
 ## Response parameters
 
