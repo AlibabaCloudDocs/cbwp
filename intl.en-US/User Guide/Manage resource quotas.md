@@ -6,7 +6,7 @@ This topic describes how to query the quota usage of a cloud resource in the Vir
 
 2.  In the left-side navigation pane, click **Quota Management**.
 
-3.  On the**Quota Management** page, click the **Shared Bandwidth** tab to view the usage of the EIP bandwidth plans that belongs to the current Alibaba Cloud account.
+3.  On the **Quota Management** page, click the **Shared Bandwidth** tab to view the usage of the EIP bandwidth plans that belongs to the current Alibaba Cloud account.
 
 4.  To increase the quota, click **Submit Application** in the **Actions** column to submit an application.
 
