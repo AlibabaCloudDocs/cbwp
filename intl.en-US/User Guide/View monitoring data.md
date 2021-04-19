@@ -11,8 +11,3 @@ This topic describes how to view the monitoring data of an EIP bandwidth plan co
     -   **Inbound Bandwidth**: the bandwidth used when data is transferred from the Internet to Alibaba Cloud.
     -   **Outbound Bandwidth**: the bandwidth used when data is transferred from Alibaba Cloud to the Internet.
 
-**Related topics**  
-
-
-[Shared Bandwidth]()
-
