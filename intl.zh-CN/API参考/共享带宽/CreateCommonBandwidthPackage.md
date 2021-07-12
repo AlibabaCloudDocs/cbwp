@@ -25,7 +25,10 @@
  -   **BGP**：BGP（多线）线路。
 -   **BGP\_PRO**：BGP（多线）精品线路。
 
- **说明：** 目前，全部地域都支持BGP（多线）线路共享带宽，仅中国（香港）地域支持BGP（多线）精品线路共享带宽。 |
+ **说明：**
+
+-   目前，全部地域都支持BGP（多线）线路共享带宽，仅中国（香港）地域支持BGP（多线）精品线路共享带宽。
+-   如果是开通了单线带宽白名单的用户，ISP字段可以设置为**ChinaTelecom**（中国电信）、**ChinaUnicom**（中国联通）和**ChinaMobile**（中国移动）；如果是杭州金融云用户，该字段必填，取值：**BGP\_FinanceCloud**。 |
 |Name|String|否|test123|共享带宽的名称。
 
  长度为2~128个字符，必须以字母或中文开头，可包含数字、半角句点（.）、下划线（\_）和短划线（-），但不能以`http://`或`https://`开头。 |
@@ -37,8 +40,7 @@
 |Ratio|Integer|否|20|共享带宽的保底百分比，取值为**20**，即保底百分比的范围是20%。
 
  **说明：** 仅中国站支持此参数。 |
-|InternetChargeType|String|否|中国站示例值：PayByBandwidth，国际站示例值：PayByTraffic|
- 共享带宽的计费方式，取值：**PayByTraffic**。 |
+|InternetChargeType|String|否|中国站示例值：PayByBandwidth，国际站示例值：PayByTraffic|共享带宽的计费方式，取值：**PayByTraffic**。 |
 
 ## 返回数据
 
@@ -74,18 +76,14 @@ http(s)://[Endpoint]/?Action=CreateCommonBandwidthPackage
 `JSON`格式
 
 ```
-{
-    "ResourceGroupId":"rg-acfmxazdjdhd****",
-    "RequestId":"FF39F653-033E-4CD9-9EDF-3CCA5A71FBC3",
-    "BandwidthPackageId":"cbwp-bp1vevu8h3ieh****"
-    }
+{"ResourceGroupId":"rg-acfmxazdjdhd****","RequestId":"FF39F653-033E-4CD9-9EDF-3CCA5A71FBC3","BandwidthPackageId":"cbwp-bp1vevu8h3ieh****"}
 ```
 
 ## 错误码
 
 |HttpCode|错误码|错误信息|描述|
 |--------|---|----|--|
-|404|InvalidRegionId.NotFound|The specified RegionId does not exist in our records.|指定的 RegionId 不存在，请您检查此产品在该地域是否可用。|
+|404|InvalidRegionId.NotFound|The specified RegionId does not exist in our records.|指定的regionid不存在。|
 |404|InvalidVpcId.NotFound|Specified value of VpcId is not found in our record.|该 VPC 不存在，请您检查输入的 VPC 是否正确。|
 |400|MissingParameter|Miss mandatory parameter.|缺少必要参数，请您检查必填参数是否都已填后再进行操作。|
 |404|InvalidZoneId.NotFound|Specified value of ZoneId is not exists.|该可用区不存在。|
